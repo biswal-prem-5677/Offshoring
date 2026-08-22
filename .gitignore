@@ -1,0 +1,45 @@
+# Claude Code / editor local state
+.claude/settings.local.json
+.claude/worktrees/
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Build / dependency output (for when implementation starts)
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+dist/
+build/
+.next/
+out/
+
+# Local data, models and artefacts — never commit model weights or customer data
+data/
+models/
+*.gguf
+*.safetensors
+*.bin
+uploads/
+logs/
+*.log
