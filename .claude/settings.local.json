@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la /c/Offshoring 2>/dev/null | head -50; echo \"---\"; ls /c/Users/priya/.claude/projects/C--Offshoring/memory/ 2>/dev/null)",
+      "WebSearch",
+      "WebFetch(domain:www.tosh.ai)",
+      "WebFetch(domain:innefu.com)",
+      "WebFetch(domain:www.palantir.com)",
+      "WebFetch(domain:www.siemens.com)",
+      "WebFetch(domain:www.nvidia.com)",
+      "WebFetch(domain:indiaai.gov.in)",
+      "WebFetch(domain:www.ibef.org)",
+      "WebFetch(domain:en.wikipedia.org)",
+      "WebFetch(domain:owasp.org)",
+      "WebFetch(domain:www.nist.gov)",
+      "WebFetch(domain:www.grandviewresearch.com)",
+      "WebFetch(domain:genai.owasp.org)",
+      "WebFetch(domain:www.precedenceresearch.com)",
+      "WebFetch(domain:artificialintelligenceact.eu)",
+      "Bash(explorer.exe \"C:\\\\\\\\Offshoring\\\\\\\\docs\")",
+      "Bash(git --version)",
+      "Bash(gh --version)",
+      "Bash(gh auth *)",
+      "Bash(git config *)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(gh repo *)"
+    ]
+  }
+}

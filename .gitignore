@@ -1,5 +1,6 @@
-# Claude Code / editor local state
-.claude/settings.local.json
+# Claude Code transient state
+# Note: .claude/settings.local.json IS tracked in this repo by choice.
+# Worktrees stay ignored — they are nested git checkouts and cannot be committed.
 .claude/worktrees/
 
 # OS
@@ -15,7 +16,7 @@ $RECYCLE.BIN/
 *.swp
 *~
 
-# Environment and secrets
+# Environment and secrets — never commit these
 .env
 .env.*
 !.env.example
