@@ -25,7 +25,11 @@
       "Bash(git init *)",
       "Bash(git add *)",
       "Bash(git commit *)",
-      "Bash(gh repo *)"
+      "Bash(gh repo *)",
+      "Bash(git ls-remote *)",
+      "Bash(gh pr *)",
+      "Bash(git switch *)",
+      "Bash(git branch *)"
     ]
   }
 }
