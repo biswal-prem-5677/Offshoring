@@ -29,7 +29,12 @@
       "Bash(git ls-remote *)",
       "Bash(gh pr *)",
       "Bash(git switch *)",
-      "Bash(git branch *)"
+      "Bash(git branch *)",
+      "Bash(git push *)",
+      "Bash(gh pr create --base main --title 'Pin line endings and track local Claude settings' --body ' *)",
+      "Bash(git --no-pager diff --stat)",
+      "Bash(git --no-pager diff)",
+      "Bash(git commit -q -m 'Record tool permissions approved during PR creation *)"
     ]
   }
 }
