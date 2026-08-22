@@ -1,7 +1,6 @@
 {
   "permissions": {
     "allow": [
-      "Bash(ls -la /c/Offshoring 2>/dev/null | head -50; echo \"---\"; ls /c/Users/priya/.claude/projects/C--Offshoring/memory/ 2>/dev/null)",
       "WebSearch",
       "WebFetch(domain:www.tosh.ai)",
       "WebFetch(domain:innefu.com)",
@@ -17,24 +16,25 @@
       "WebFetch(domain:genai.owasp.org)",
       "WebFetch(domain:www.precedenceresearch.com)",
       "WebFetch(domain:artificialintelligenceact.eu)",
-      "Bash(explorer.exe \"C:\\\\\\\\Offshoring\\\\\\\\docs\")",
       "Bash(git --version)",
       "Bash(gh --version)",
-      "Bash(gh auth *)",
-      "Bash(git config *)",
-      "Bash(git init *)",
+      "Bash(gh auth status)",
+      "Bash(git status *)",
+      "Bash(git log *)",
+      "Bash(git diff *)",
+      "Bash(git show *)",
+      "Bash(git ls-remote *)",
+      "Bash(git ls-files *)",
       "Bash(git add *)",
       "Bash(git commit *)",
-      "Bash(gh repo *)",
-      "Bash(git ls-remote *)",
-      "Bash(gh pr *)",
       "Bash(git switch *)",
       "Bash(git branch *)",
-      "Bash(git push *)",
-      "Bash(gh pr create --base main --title 'Pin line endings and track local Claude settings' --body ' *)",
-      "Bash(git --no-pager diff --stat)",
-      "Bash(git --no-pager diff)",
-      "Bash(git commit -q -m 'Record tool permissions approved during PR creation *)"
+      "Bash(git push origin *)",
+      "Bash(git push -u origin *)",
+      "Bash(gh pr view *)",
+      "Bash(gh pr list *)",
+      "Bash(gh pr diff *)",
+      "Bash(gh pr create *)"
     ]
   }
 }
